@@ -1,0 +1,283 @@
+	<div class="title">JMS Blog</div>
+	<div id="accordion" class="panel-group">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#information">Information</a>
+				</h3>
+			</div>
+			<div id="information" class="panel-collapse collapse">
+				<div class="panel-body">
+					<img src="images/blog1.jpg" /><br /><br />
+					<div>JMS Blog module manage categories, blog items, comments of blog items and showing them at frontend</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Categories list : list categories page with url is "index.php?fc=module&module=jmsblog&controller=categories"
+					</li>
+					<li>
+						<span class="round">2</span>Blog category: list blog items of category with url is "index.php?fc=module&module=jmsblog&category_id=1&controller=category". You can change 1 with category_id of category what you want to show
+					</li>					
+					<li>
+						<span class="round">3</span>Single post: detail blog item page with url is "index.php?fc=module&module=jmsblog&category_slug=news&post_id=1&controller=post". You can change post_id as you want
+					</li>
+					<li>
+						<span class="round">4</span>Blog archives: list archives blog items with url is "index.php?archive=2015-09&fc=module&module=jmsblog&controller=archive" . You can cahnge 2015-09 with your archives
+					</li>
+					<li>
+						<span class="round">5</span>Blog tag: list blog items following tag with url is "index.php?fc=module&module=jmsblog&tag=fashion&controller=tag". you can change tag "fashion" to your tag
+					</li>
+								
+				</ul>       
+				
+				</div>				
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#blog_category">Categories manager</a>
+				</h3>
+			</div>
+			<div id="blog_category" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="note">Go to JMS Blog > Categories</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Add category button
+					</li>
+					<li>
+						<span class="round">2</span>Enable/Disable category button
+					</li>					
+					<li>
+						<span class="round">3</span>Edit category button.
+					</li>
+					<li>
+						<span class="round">4</span>Delete category button.
+					</li>
+					
+				</ul>       
+				<br /><img src="images/blog2.jpg" /><br />
+				</div>				
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#detail_category">Detail category</a>
+				</h3>
+			</div>
+			<div id="detail_category" class="panel-collapse collapse">
+				<div class="panel-body">
+					
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Title: title of category. 
+					</li>
+									
+					<li>
+						<span class="round">2</span>Alias. 
+					</li>
+					<li>
+						<span class="round">3</span>Parent Category : choose parent category.
+					</li>
+					<li>
+						<span class="round">4</span>Description: description.
+					</li>
+					<li>
+						<span class="round">5</span>Image: upload image for category
+					</li>
+					<li>
+						<span class="round">6</span>Active
+					</li>	
+					
+				
+				</ul>       
+				<br /><img src="images/blog4.jpg" /><br />
+				</div>				
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#blog_listing">Blog Listing</a>
+				</h3>
+			</div>
+			<div id="blog_listing" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="note">Go to JMS Blog > Post</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span> Category Filter  : filter blog items following category. 
+					</li>
+					<li>
+						<span class="round">2</span>State Filter : filter blog items following status. 
+					</li>					
+					<li>
+						<span class="round">3</span>Add button : add new blog item.  
+					</li>
+					<li>
+						<span class="round">4</span>Enable/Disable button : enable/disable blog item. 
+					</li>
+					<li>
+						<span class="round">5</span>Edit button : edit blog item.
+					</li>
+					<li>
+						<span class="round">6</span>Delete button : delete blog item.
+					</li>
+				
+				</ul>       
+				<br /><img src="images/blog5.jpg" /><br />
+				</div>				
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#detail_blog">Detail blog item</a>
+				</h3>
+			</div>
+			<div id="detail_blog" class="panel-collapse collapse">
+				<div class="panel-body">
+					
+					<ul>
+				<li>Title: title of cateogry</li>
+				<li>Alias: alias</li>
+				<li>Category: category</li>
+				<li>Created date: created date</li>
+				<li>Modified date: last modified date</li>
+				<li>Introtext: introtext of article, it will be displayed on blog module</li>
+				<li>Fulltext: full text will be displayed in detail article at frontend</li>
+				<li>Image: image of article, it will be displayed on blog  </li>
+				<li>Link video: an iframe to video what you want to show in blog content </li>
+				<li>Image: image of article, it will be displayed on blog  </li>
+				<li>Meta Description: meta description </li>
+				<li>Meta Keywords: meta keywords</li>
+				<li>Key reference: key references</li>
+				<li>Tags : tags of this content </li>
+				<li>Active : active or not </li>
+			</ul>       
+				<br /><img src="images/blog6.jpg" /><br />
+						
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#comment">Comments manager</a>
+				</h3>
+			</div>
+			<div id="comment" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="note">Go to JMS Blog > Comment</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Post Filter : filter comments following post.
+					</li>
+					<li>
+						<span class="round">2</span>State Filter : filter comments following status.
+					</li>					
+					<li>
+						<span class="round">3</span>Approve button: click to change status of comment.  
+					</li>
+					<li>
+						<span class="round">4</span>Delete button : deleta comment
+					</li>
+					
+				</ul>       
+				<br /><img src="images/blog7.jpg" /><br />
+					
+				</div>				
+			</div>			
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#blog_setting">Setting</a>
+				</h3>
+			</div>
+			<div id="blog_setting" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="note">General Setting</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Introtext Character Limit : Number of character of introtext in post list page .
+					</li>
+					<li>
+						<span class="round">2</span>Show Category : Show/Hide Category Under Post Title In Post List or Post Detail page. 
+					</li>					
+					<li>
+						<span class="round">3</span>Show Views : Show/Hide Views Under Post Title In Post List or Post Detail page.   
+					</li>
+					<li>
+						<span class="round">4</span>Show Comments : Show/Hide Comments Under Post Title In Post List or Post Detail page. 
+					</li>
+					<li>
+						<span class="round">5</span>Show Media : Show/Hide Image/video on Post List.  
+					</li>
+					</ul>       
+					<br /><img src="images/blog8.jpg" /><br /><br />
+					<div class="note">Image Setting</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Image Width  : width of image .
+					</li>
+					<li>
+						<span class="round">2</span>Image Height : height of image. 
+					</li>					
+					<li>
+						<span class="round">3</span>Thumb Width : width of thumb.   
+					</li>
+					<li>
+						<span class="round">4</span>Thumb Height  : height of thumb. 
+					</li>
+					
+				</ul>       
+				<br /><img src="images/blog9.jpg" /><br /><br />
+				<div class="note">Comment Setting</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Comment Enable : enable/disable comment .
+					</li>
+					<li>
+						<span class="round">2</span>Facebook Comment  : enable/disable facebook comment. 
+					</li>					
+					<li>
+						<span class="round">3</span>Allow Guest Comments  : allow guest comment or not.   
+					</li>
+					<li>
+						<span class="round">4</span>Minimum time between 2 comments from the same user . 
+					</li>
+					<li>
+						<span class="round">5</span>Auto Approve Comment : auto appove comment.  
+					</li>
+				</ul>       
+				<br /><img src="images/blog10.jpg" /><br /><br /><div class="note">Social Setting</div>
+					<ul class="list">
+					<li>
+						<span class="round">1</span>Social Sharing Enable  : enable/disable social sharing .
+					</li>
+					<li>
+						<span class="round">2</span>Facebook Enable : enable/disable facebook. 
+					</li>					
+					<li>
+						<span class="round">3</span>Twitter Enable : enable/disable twitter.   
+					</li>
+					<li>
+						<span class="round">4</span>Google Plus Enable : enable/disable google plus. 
+					</li>
+					<li>
+						<span class="round">5</span>Linkedin Enable : enable/disable Linkedin.  
+					</li>
+					<li>
+						<span class="round">6</span>Pinterest Enable  : enable/disable pinterest.  
+					</li>
+					<li>
+						<span class="round">7</span>Email Enable : enable/disable email.  
+					</li>
+				</ul>       
+				<br /><img src="images/blog11.jpg" /><br /><br />
+				</div>				
+			</div>			
+		</div>
+		</div>		
+	</div>
